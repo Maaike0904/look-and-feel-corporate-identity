@@ -1,3 +1,7 @@
+:root {
+--groen: #3A7E79;
+}
+
 h1 {
     color: #3A7E79;
     text-align: center;
@@ -93,12 +97,24 @@ li {
     animation-duration: .1s;
 }
 
-shoppingcart, .person {
+.person {
+    background-color: transparent;
+    border: none;
+    color: var(--groen);
+    position: relative;
+    margin-right: 2em;
+}
+
+.logout{
     background-color: transparent;
     border: none;
     color: #152a42;
     position: relative;
     margin-right: 2em;
+}
+
+.menu{
+display: none;
 }
 
 .material-symbols-outlined {
@@ -117,18 +133,19 @@ shoppingcart, .person {
     -webkit-font-smoothing: antialiased;
 }
 
+
 button {
     appearance: auto;
     writing-mode: horizontal-tb !important;
-    font-style: ;
-    font-variant-ligatures: ;
-    font-variant-caps: ;
+    /* font-style: ;
+    font-variant-ligatures:;
+    font-variant-caps:;
     font-variant-numeric: ;
     font-variant-east-asian: ;
     font-weight: ;
     font-stretch: ;
     font-size: ;
-    font-family: ;
+    font-family: ; */
     text-rendering: auto;
     color: buttontext;
     letter-spacing: normal;
@@ -161,5 +178,32 @@ div {
     display: block;
 }
 
+@media (max-width: 772px){
+.nav-links ul li {
+display: none;
+}
 
+.nav-links ul li a {
+display: none;
+}
+
+.nav-links ul li a:hover {
+display: none;
+}
+
+.menu {
+    background-color: transparent;
+    border: none;
+    color: #152a42;
+    position: relative;
+    margin-right: 2em;
+    display: block;
+}
+
+h1{
+padding-top: 1em;
+}
+
+
+}
 
