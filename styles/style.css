@@ -1,5 +1,5 @@
 :root {
---groen: #44938e;
+--groen: #3A7E79;
 --blauw: #152a42;
 --geel: #f4eb34;
 }
@@ -231,6 +231,17 @@ label{
     line-height: 1.5em;
 }
 
+/* Logboek */
+textarea{
+border: none;
+font-family: 'Montserrat', sans-serif;
+padding: 10px;
+color: #87898b;
+height: 133px; 
+width: 239px
+}
+
+
 /* Agenda */
 .agenda{
 background: rgba(58, 126, 121,.4);
@@ -421,6 +432,75 @@ h1{
 padding-top: 1em;
 }
 
+@media (max-width: 750px){
 
+#calendar, #calendar tr, #calendar tbody {
+    grid-template-columns: 1fr;
 }
 
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#calendar .weekdays, #calendar .other-month {
+    display: none;
+}
+#calendar .weekdays {
+    background: var(--groen);
+}
+
+#calendar tr {
+    grid-column: 1 / 2;
+}
+
+#calendar, #calendar tr, #calendar tbody {
+    grid-template-columns: 1fr;
+}
+
+#calendar tr, #calendar tbody {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+#calendar td {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+#calendar td, #calendar th {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #b5dbdc;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+}
