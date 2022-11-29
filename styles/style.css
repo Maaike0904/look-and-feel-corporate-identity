@@ -238,11 +238,13 @@ label{
 
 /* Agenda */
 .agenda{
-background-color: var(--groen);
+background: rgba(58, 126, 121,.4);
 padding: 2em;
 text-align: left;
+border-radius: 1em;
 }
 
+/* Checklist en agenda containers */
 
 @container sidebar (min-width:750px){
  .checklist{
@@ -250,13 +252,14 @@ display: grid;
 grid-template-columns: 1fr 2fr;
 grid-template-rows: 1fr;
 /* background-color: var(--groen);} */
+
  }
 }
 
 
-/* Mediaquery */
+/* Mediaquery kleiner scherm */
 
-@media (max-width: 772px){
+@media (max-width: 876px){
 .nav-links ul li {
 display: none;
 }
@@ -270,8 +273,8 @@ display: none;
 }
 
 .menu {
-    background-color:var(--geel);
-    border-radius: 5%;
+    /* background-color:var(--geel);
+    border-radius: 5%; */
     border: none;
     color: #152a42;
     position:relative;
