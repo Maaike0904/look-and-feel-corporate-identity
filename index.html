@@ -57,7 +57,7 @@
 
 <main>
 
-<h1>Sarah's planning</h1>
+<h1>Planning van Sarah</h1>
 
 <div class="container">
  
@@ -73,6 +73,10 @@
     <label for="check">Account voor Ruben aanmaken</label>
   </div>
   <div>
+    <input type="checkbox" id="huisarts" name="check" value="huisarts" />
+    <label for="check">Huisarts bellen</label>
+  </div>
+  <div>
     <input type="checkbox" id="ontbijt" name="check" value="ontbijt" />
     <label for="check">Half 8 ontbijt</label>
   </div>
@@ -86,7 +90,7 @@
   </div> 
 </fieldset>
 
-
+<!-- 
         <div class='agenda'>
             <h2>Agenda</h2>
             <p>Maandag</p>
@@ -95,7 +99,164 @@
             <p>Donderdag</p>
             <p>Vrijdag</p>
             <p>Zaterdag</p>
-            <p>Zondag</p>
+            <p>Zondag</p> -->
+
+<table id="calendar">
+      
+      <tbody><tr class="weekdays">
+        <th scope="col">Maandag</th>
+        <th scope="col">Dinsdag</th>
+        <th scope="col">Woensdag</th>
+        <th scope="col">Donderdag</th>
+        <th scope="col">Vrijdag</th>
+        <th scope="col">Zaterdag</th>
+        <th scope="col">Zondag</th>
+      </tr>
+
+        <td class="day other-month">
+          <div class="date">28</div>
+          <div class="event">
+            <div class="event-desc">Eerste pindahapje geven</div>
+            <div class="event-time">8:00</div>
+          </div>
+        </td>
+        <td class="day other-month">
+          <div class="date">29</div>
+        </td>
+        <td class="day other-month">
+          <div class="date">30</div>
+        </td>
+
+        <td class="day">
+          <div class="date">1</div>
+        </td>
+        <td class="day">
+          <div class="date">2</div>
+          <div class="event">
+            <div class="event-desc">Account voor Ruben aanmaken</div>
+
+            <div class="event-time">14:00</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Huisarts bellen</div>
+
+            <div class="event-time">15.00</div>
+          </div>
+        </td>
+        <td class="day">
+          <div class="date">3</div>
+        </td>
+        <td class="day">
+          <div class="date">4</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="day">
+          <div class="date">5</div>
+        </td>
+        <td class="day">
+          <div class="date">6</div>
+        </td>
+        <td class="day">
+          <div class="date">7</div>
+          <div class="event">
+            <div class="event-desc">Half 8 ontbijt</div>
+            <div class="event-time">7:30 tot 8:00</div>
+          </div>
+        </td>
+        <td class="day">
+          <div class="date">8</div>
+        </td>
+        <td class="day">
+          <div class="date">9</div>
+        </td>
+        <td class="day">
+          <div class="date">10</div>
+        </td>
+        <td class="day">
+          <div class="date">11</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="day">
+          <div class="date">12</div>
+        </td>
+        <td class="day">
+          <div class="date">13</div>
+        </td>
+        <td class="day">
+          <div class="date">14</div>
+          <div class="event">
+            <div class="event-desc">Gesprek met Vini Mini consultant</div>
+            <div class="event-time">10:00</div>
+          </div>
+        </td>
+        <td class="day">
+          <div class="date">15</div>
+        </td>
+        <td class="day">
+          <div class="date">16</div>
+        </td>
+        <td class="day">
+          <div class="date">17</div>
+        </td>
+        <td class="day">
+          <div class="date">18</div>
+        </td>
+        <td class="day">
+          <div class="date">19</div>
+        </td>
+        <td class="day">
+          <div class="date">20</div>
+        </td>
+        <td class="day">
+          <div class="date">21</div>
+        </td>
+        <td class="day">
+          <div class="date">22</div>
+          </div>
+        </td>
+        <td class="day">
+          <div class="date">23</div>
+        </td>
+        <td class="day">
+          <div class="date">24</div>
+        </td>
+        <td class="day">
+          <div class="date">25</div>
+          <div class="event">
+            <div class="event-desc">Pinda mee naar verjaardag opa van der Meulen</div>
+            <div class="event-time">18:00</div>
+          </div>
+        </td>
+        <td class="day">
+          <div class="date">26</div>
+        </td>
+        <td class="day">
+          <div class="date">27</div>
+        </td>
+        <td class="day">
+          <div class="date">28</div>
+        </td>
+        <td class="day">
+          <div class="date">29</div>
+        </td>
+        <td class="day">
+          <div class="date">30</div>
+        </td>
+        <td class="day">
+          <div class="date">31</div>
+          <div class="event">
+           <div class="event-desc">Oud en nieuw bij Tanja</div>
+            <div class="event-time">21:00</div>
+        </td>
+        <td class="day other-month">        
+          <div class="date">1</div>
+          <div class="event">
+          <div class="event-desc">Nieuwjaarsdag!!</div>
+          </div>
+      </tr>
+    </tbody></table>
     </div>
         </div>
 </div>

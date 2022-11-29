@@ -1,11 +1,11 @@
 :root {
---groen: #3A7E79;
+--groen: #44938e;
 --blauw: #152a42;
 --geel: #f4eb34;
 }
 
 h1 {
-    color: #3A7E79;
+    color: var(--groen);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -219,14 +219,14 @@ color: var(--groen);
 }
 
 .checklist{
-    border: 2px;
-    border-color: #3A7E79;
-    color: var(--groen);
+    /* border: 2px;
+    border-color: var(--groen);
+    color: var(--groen); */
     padding: 2em;
 }
 
 label{
-    color: #152a42;
+    color: var(--blauw);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.88rem;
@@ -244,12 +244,147 @@ text-align: left;
 border-radius: 1em;
 }
 
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+#calendar {
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+caption {
+    color: var(--blauw);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1em;
+    width: 100%;
+}
+
+#calendar .weekdays {
+    background: var(--groen);
+    border-radius:0.5em;
+}
+
+#calendar .weekdays th {
+    text-align: center;
+    line-height: 20px;
+    border: none;
+    padding: 10px 6px;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#calendar td, #calendar th {
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid rgb(239, 239, 239);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#calendar td {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#calendar tr, #calendar tbody {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+#calendar tr, #calendar tbody {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+#calendar .other-month {
+    background: rgba(58, 126, 121,.05);
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#calendar .event {
+    flex: 0 0 auto;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    line-height: 14px;
+    background: #e4f2f2;
+    border: 1px solid #b5dbdc;
+    color: var(--groen);
+    text-decoration: none;
+}
+
+.event-time{
+    flex: 0 0 auto;
+    font-size: 10px;
+    padding: 3px;
+    margin-bottom: 2px;
+    line-height: 12px;
+    background: #e4f2f2;
+    color: var(--groen);
+    text-decoration: none;
+}
+
+#calendar .date {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 4px;
+    color:--blauw;
+    width: 26px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    align-self: flex-end;
+}
+
 /* Checklist en agenda containers */
 
 @container sidebar (min-width:750px){
  .checklist{
 display: grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 0.6fr 2fr;
 grid-template-rows: 1fr;
 /* background-color: var(--groen);} */
 
