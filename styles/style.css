@@ -212,11 +212,6 @@ border-color: var(--geel);
 
 }
 
-.container{
- container-type: inline-size;
- container-name: sidebar;
-color: var(--groen);
-}
 
 .checklist{
     /* border: 2px;
@@ -389,6 +384,12 @@ grid-template-rows: 1fr;
 /* background-color: var(--groen);} */
 
  }
+}
+
+.container{
+ container-type: inline-size;
+ container-name: sidebar;
+color: var(--groen);
 }
 
 
