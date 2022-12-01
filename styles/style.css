@@ -20,7 +20,6 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    padding: 1em;
     width: 100%;
 }
 
@@ -198,7 +197,8 @@ div {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: .5em;
     width: 100%;
 }
 
@@ -209,7 +209,7 @@ div {
     padding: 3px;
     margin-bottom: 2px;
     line-height: 12px;
-    color: var(var(--blauw));
+    color: var(--blauw);
     text-decoration: none;
 }
 
@@ -221,6 +221,16 @@ div {
     font-weight: 300;
     padding: 2em auto;
     width: 100%;
+}
+
+#date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 300;
+    border: none;
+    height:25px;
+    padding: 10px;
+    margin-bottom:10px;
 }
 
 fieldset{
