@@ -202,6 +202,27 @@ div {
     width: 100%;
 }
 
+.datum{
+    font-family: 'Montserrat', sans-serif;
+    flex: 0 0 auto;
+    font-size: 12px;
+    padding: 3px;
+    margin-bottom: 2px;
+    line-height: 12px;
+    color: var(var(--blauw));
+    text-decoration: none;
+}
+
+.aantekening{
+    color: #152a42;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 2em auto;
+    width: 100%;
+}
+
 fieldset{
 padding: 2em;
 border-radius: 1em;
