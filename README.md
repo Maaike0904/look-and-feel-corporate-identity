@@ -19,6 +19,7 @@ Deze opdracht is gemaakt met:
 
 ## Bronnen
 https://stackoverflow.com/questions/60097523/why-use-both-thead-and-th-scope-col
+https://www.handleidinghtml.nl/html/elementen/tbody.html
 
 ## Licentie
 
