@@ -259,6 +259,13 @@ button{
     border-radius: .5em;
 }
 
+button:hover{
+    background-color: var(--groen);
+    transition: .5s;
+    color: white;
+;
+}
+
 .checklist{
     /* border: 2px;
     border-color: var(--groen);
