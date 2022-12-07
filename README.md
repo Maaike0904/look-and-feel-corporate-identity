@@ -22,6 +22,7 @@ Deze opdracht is gemaakt met:
 * https://www.handleidinghtml.nl/html/elementen/tbody.html
 * https://www.html-totaal.be/7.3-th_tag.htm
 * https://www.handleidinghtml.nl/html/elementen/tr.html
+* https://www.handleidinghtml.nl/html/elementen/td.html
 
 ## Licentie
 
