@@ -18,9 +18,9 @@ Deze opdracht is gemaakt met:
 - CSS
 
 ## Bronnen
-https://stackoverflow.com/questions/60097523/why-use-both-thead-and-th-scope-col
-https://www.handleidinghtml.nl/html/elementen/tbody.html
-https://www.html-totaal.be/7.3-th_tag.htm
+* https://stackoverflow.com/questions/60097523/why-use-both-thead-and-th-scope-col
+* https://www.handleidinghtml.nl/html/elementen/tbody.html
+* https://www.html-totaal.be/7.3-th_tag.htm
 
 ## Licentie
 
