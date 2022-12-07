@@ -18,6 +18,7 @@ Deze opdracht is gemaakt met:
 - CSS
 
 ## Bronnen
+https://stackoverflow.com/questions/60097523/why-use-both-thead-and-th-scope-col
 
 ## Licentie
 
